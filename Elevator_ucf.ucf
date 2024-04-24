@@ -1,0 +1,24 @@
+# The Pins for clock
+NET "clk" LOC ="E3" | IOSTANDARD = "LVCMOS33"; 
+# The Pins for 
+NET "ground" LOC ="P18" | IOSTANDARD = "LVCMOS33"; 
+NET "first" LOC ="P17" | IOSTANDARD = "LVCMOS33"; 
+NET "second" LOC ="M18" | IOSTANDARD = "LVCMOS33"; 
+
+NET "top" LOC ="D18" | IOSTANDARD = "LVCMOS33"; 
+NET "middle_plus" LOC ="F16" | IOSTANDARD = "LVCMOS33"; 
+NET "middle_minus" LOC ="D14" | IOSTANDARD = "LVCMOS33"; 
+NET "bottom" LOC ="C17" | IOSTANDARD = "LVCMOS33"; 
+
+NET "reset" LOC ="M17" | IOSTANDARD = "LVCMOS33"; 
+
+NET "curr1" LOC ="V11" | IOSTANDARD = "LVCMOS33"; 
+NET "curr2" LOC ="V12" | IOSTANDARD = "LVCMOS33"; 
+NET "curr3" LOC ="V14" | IOSTANDARD = "LVCMOS33"; 
+
+NET "up" LOC ="K15" | IOSTANDARD = "LVCMOS33"; 
+NET "down" LOC ="H17" | IOSTANDARD = "LVCMOS33"; 
+NET "idle" LOC ="V15" | IOSTANDARD = "LVCMOS33"; 
+
+NET "motor_up" LOC ="K1" | IOSTANDARD = "LVCMOS33"; 
+NET "motor_down" LOC ="F6" | IOSTANDARD = "LVCMOS33"; 
